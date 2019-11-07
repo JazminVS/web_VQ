@@ -1,0 +1,366 @@
+/*Objetos*/
+/*Personalización Imagenes*/
+.logoMain{
+    width: 12.5em;
+    height: 3em;
+}
+
+/*Secciones*/
+/* Header */
+.header-main{
+
+}
+/*-------------------------------------------------- */
+/* Carousel */
+/* Carousel base class*/
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 8rem;
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 50%;
+    height: 32rem;
+}
+.btnCarousel{
+    text-decoration: none;
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #ee7424;
+}
+.btnCarousel:hover{
+    color: #ee7424;
+    background-color: #ffffff;
+}
+
+/* -------------------------------------------------- */
+
+/* Seccion Logos Principales */
+.secLogos{
+    margin: -7.4em 12em 2em 12em;
+}
+.logos{
+    width: 8em;
+    height: 8em;
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 3em;
+    background-color: #ee7424;
+    border-radius: 50%;
+    display: flex;
+}
+/*-------------------------------------------------- */
+/* Seccion Iniciativas */
+.secIniciativas{
+    margin: 0em 10em 2em 10em;
+    text-align: center;
+}
+
+.secIniciativas > .row > .col-md-6{
+    margin-bottom: 2em;
+}
+.secIniciativas > .row > .col-md-6 > img{
+    width: 25em;
+    height: 14em;
+}
+
+.btnIniciativas{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ee7424;
+}
+.btnIniciativas:hover{
+    color: #ee7424;
+    background-color: #ffffff;
+}
+.hrPer{
+    background-color: #ee7424;
+    width: 20%;
+    height: 0.2em;
+}
+/*-------------------------------------------------- */
+/* Seccion Primer Footer  */
+.footerFirst{
+    background-color: #ee7424;
+    color: white;
+    height: 6em;
+}
+.footerFirst > .row{
+    margin: 0 0 0 0;
+}
+
+.btnContactanos{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #ee7424;
+    border-color: white;
+}
+.btnContactanos:hover{
+    color: #ee7424;
+    background-color: #ffffff;
+}
+.logoFooter{
+    max-width: 13em;
+    max-height: 3em;
+}
+
+/*-------------------------------------------------- */
+
+/* Seccion Blog */
+.blog{
+    margin: 3em 10em 2em 10em;
+}
+.blog > h3, h2{
+    text-align: center;
+}
+.card-deck{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.boton{
+    text-align: center;
+}
+.btnBlog{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #ee7424;
+    background-color: white;
+    border-color:#ee7424;
+}
+.btnBlog:hover{
+    color: white;
+    background-color: #ee7424;
+}
+/*-------------------------------------------------- */
+
+/* Seccion Contactanos */
+.contactanos{
+    text-align: center;
+    color: white;
+    background-image: url('../img/inicio/fondo_contactanos.png');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position-y: -6.875em;
+    height: 30rem;
+    min-width: 100%;
+    min-height: 50%;
+}
+.contactanos1{
+    background: rgba(18, 18, 18, 0.6);
+    height: 100%;
+}
+.contactanos1 > h1{
+    margin-top: 1.5em;
+}
+.hrPer2{
+    background-color: white;
+    width: 20%;
+    height: 0.1em;
+}
+.btn-flecha{
+    text-decoration: none;
+    padding: 0.3125em;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #ffffff;
+    background-color: #ee7424;
+    text-align: center;
+}
+.formulario{
+    margin: 0 0 0 0;
+}
+.formulario > .col-4 > .input-group {
+    width: 30em;
+    margin-left: -3em;
+}
+.formulario > .col-4 > .input-group > input {
+    font-size: 0.7em;
+}
+.formulario > .col-4 > .input-group > .input-group-prepend {
+    text-decoration: none;
+    padding: 0.3125em;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #ffffff;
+    background-color: #ee7424;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------- */
+/* Seccion Somos Parte */
+.somos-parte{
+    text-align: center;
+    margin: 4em 0 4em 0;
+}
+.somos-parte > .row {
+    margin: 8em 12em 0 12em;
+}
+.somos-parte > .row > .col-md-2 > img {
+    width: 12em;
+    height: 4em;
+    margin-left: 3em;
+}
+/*-------------------------------------------------- */
+/* Seccion Contactos */
+.contactos{
+    background-color: #ee7424;
+    color: white;
+}
+.contactos > .row{
+    margin: 0 0 0 0;
+}
+
+.contactos > .row > .col-md-2 > img {
+    width: 8em;
+    height: 6em;
+}
+.contactos > .row > .col-md-3 {
+    margin: 1em 0 0 -4em;
+}
+.contactos > .row > .col-md-3 > img {
+    width: 20em;
+    height: 100%;
+
+}
+.logosRedes{
+    margin: 0.5em 0 3em 0;
+}
+
+/*-------------------------------------------------- */
+/* Seccion Footer */
+footer {
+    background-color: rgba(18, 18, 18, 0.9);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 0.7em;
+}
+.nav{
+    margin: 3em 24em 2em 24em;
+}
+.lista{
+     padding: 0;
+}
+.lista li{
+    display: inline;
+}
+.lista li a {
+    font-family: Arial;
+    font-size: 1em;
+    text-decoration: none;
+    float: left;
+    padding: 0.6em;
+    color: rgba(18,18,18, 0.9);
+}
+/*-------------------------------------------------- */
+/*Diseno Web Responsive*/
+/*Responsive Smarthphone*/
+@media screen and (max-device-width : 480px) {
+    .logos{
+        max-height: 6em;
+        max-width: 100%;
+        margin-right: 0.2em;
+        margin-top: 0.8em;
+    }
+    .secIniciativas{
+        margin: 0em 0 2em 0;
+    }
+    .footerFirst > .row > .col-md-3{
+        margin: 0 0 0 0;
+    }
+    .blog{
+        margin: 3em 0 2em 0;
+    }
+    .contactanos{
+        height: 20rem;
+    }
+
+
+}
+/*Responsive Tablet*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    .logos{
+        max-height: 6em;
+        max-width: 100%;
+        margin-right: 0.2em;
+        margin-top: 0.8em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .secLogos{
+        margin: -7.4em 4em 2em 4em;
+    }
+    .logos{
+        max-width: 100%;
+    }
+    .footerFirst > .row > .col-md-3{
+        margin: 0 0 0 0;
+    }
+    .blog{
+        margin: 3em 0 2em 0;
+    }
+}
+
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+    body {
+    }
+    .secLogos{
+        margin: -7.4em 14em 2em 14em;
+    }
+    .logos{
+        max-width: 100%;
+    }
+
+
+
+
+}
+/*-------------------------------------------------- */
+/**/
+/* Diseño para celulares */
+#columna1, #columna2, #columna3 {
+    float:none;
+    width:100%;
+}
+
+/* Diseño para tabletas */
+@media screen and (min-width: 800px) {
+    #columna1, #columna2 {
+        float:left;
+        width:50%;
+    }
+}
+
+/* Diseño para PC */
+@media screen and (min-width: 1025px) {
+    #columna1, #columna2, #columna3 {
+        float: left;
+        width: 33%;
+    }
+}
+/*-------------------------------------------------- */

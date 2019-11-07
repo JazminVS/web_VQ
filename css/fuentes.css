@@ -1,0 +1,112 @@
+/*Seccion Navbar*/
+.navbar-nav li a {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+/*-------------------------------------------------- */
+/*Seccion Carousel*/
+.carousel-caption > h1 {
+    font-size: 2em;
+}
+.carousel-caption > h2 {
+    font-size: 1.5em;
+}
+.carousel-caption > p {
+    font-size: 0.9em;
+}
+/*-------------------------------------------------- */
+/*Seccion Iniciativas*/
+.secIniciativas > h3 {
+    font-size: 1em;
+}
+.secIniciativas > h1 {
+    font-size: 2em;
+    color: #ee7424;
+}
+.secIniciativas > p{
+    text-align: center;
+}
+.secIniciativas > .row > .col-md-6 > h4{
+    font-size: 1.2em;
+    color: #ee7424;
+}
+
+.secIniciativas > .row > .col-md-6 > p{
+    font-size: 0.8em;
+    color: black;
+}
+/*-------------------------------------------------- */
+/*Seccion Footer Secundario*/
+.footerFirst > .row > .col-md-4 > p {
+    font-size: 1.5em;
+}
+    /*-------------------------------------------------- */
+/*Seccion Blog*/
+.blog > h3{
+    font-size: 0.9em;
+}
+.blog > h2{
+    font-size: 1.5em;
+    text-align: center;
+    color: #ee7424;
+}
+.card-body > h5{
+    font-size: 1em;
+}
+.card-body > p{
+    font-size: 0.8em;
+}
+/*-------------------------------------------------- */
+/*Seccion Contactanos*/
+.contactanos1 > h3{
+    font-size: 0.8em;
+}
+.contactanos1 >h1{
+    font-size: 2em;
+}
+.contactanos1 > p{
+    font-size: 0.8em;
+    margin-bottom: 5em;
+}
+/*-------------------------------------------------- */
+/*Seccion Somos Parte De*/
+
+/*-------------------------------------------------- */
+/*Seccion Contactos*/
+.encabezado2 > h5{
+    font-size: 1em;
+    margin-top: 3em;
+}
+.encabezado2 > p{
+    font-size: 0.8em;
+}
+.contactos > .row > .col-md-7 > .row > .col-md-6 > .col-10{
+    font-size: 0.8em;
+}
+    /*-------------------------------------------------- */
+/*-------------------------------------------------- */
+/*Diseno Web Responsive*/
+@media screen and (max-device-width : 480px) {
+    body{
+        font-size:75%;
+    }
+    .footerFirst > .row > .col-md-4 > p {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:800px) {
+    body {
+        font-size:100%;
+        /* ampliamos los textos si mide más de 800px */
+    }
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+    body {
+        font-size:120%;
+        /* ampliamos más aún los textos si mide más de 1200px */
+    }
+}
+
+/*-------------------------------------------------- */

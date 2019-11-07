@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c57ea6e-f3f9-45d3-8ea3-eb6a60ba6e49" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ssjco0d8yGsdsOREBHQkjU3iL8" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\logos" />
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\inicio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\inicio" />
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c57ea6e-f3f9-45d3-8ea3-eb6a60ba6e49" name="Default Changelist" comment="" />
+      <created>1571436598088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571436598088</updated>
+      <workItem from="1571436602653" duration="1257000" />
+      <workItem from="1571667227753" duration="9271000" />
+      <workItem from="1571765069290" duration="1191000" />
+      <workItem from="1572359289726" duration="51567000" />
+      <workItem from="1572962044529" duration="17114000" />
+      <workItem from="1572985716283" duration="6813000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
