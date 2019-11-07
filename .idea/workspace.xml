@@ -17,11 +17,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web_VQ" />
+  </component>
   <component name="ProjectId" id="1Ssjco0d8yGsdsOREBHQkjU3iL8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -30,13 +36,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\logos" />
-      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\inicio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\inicio" />
       <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\servicios" />
+      <recent name="C:\Apache24\htdocs\img\inicio" />
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\logos" />
+      <recent name="C:\nubevq\CloudVQ\jazmin.villamarin\_JV\09 DESARROLLO\web_site\test\img\inicio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,11 +74,22 @@
       <workItem from="1571765069290" duration="1191000" />
       <workItem from="1572359289726" duration="51567000" />
       <workItem from="1572962044529" duration="17114000" />
-      <workItem from="1572985716283" duration="6813000" />
+      <workItem from="1572985716283" duration="27925000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

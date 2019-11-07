@@ -1,4 +1,9 @@
-/*Objetos*/
+/*Navbar*/
+.navbar-nav li a {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+/*-------------------------------------------------- */
 /*Personalización Imagenes*/
 .logoMain{
     width: 12.5em;
@@ -45,7 +50,15 @@
     color: #ee7424;
     background-color: #ffffff;
 }
-
+.carousel-caption > h1 {
+    font-size: 2em;
+}
+.carousel-caption > h2 {
+    font-size: 1.5em;
+}
+.carousel-caption > p {
+    font-size: 0.9em;
+}
 /* -------------------------------------------------- */
 
 /* Seccion Logos Principales */
@@ -57,10 +70,24 @@
     height: 8em;
     max-height: 100%;
     max-width: 100%;
-    margin-right: 3em;
+    margin-right: 4em;
     background-color: #ee7424;
     border-radius: 50%;
+
     display: flex;
+    /* align-items por defecto tiene el valor `stretch` */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logos > a > img{
+    max-width: 3em;
+    max-height: 3em;
+}
+.logos > h6{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
 }
 /*-------------------------------------------------- */
 /* Seccion Iniciativas */
@@ -94,6 +121,25 @@
     width: 20%;
     height: 0.2em;
 }
+.secIniciativas > h3 {
+    font-size: 1em;
+}
+.secIniciativas > h1 {
+    font-size: 2em;
+    color: #ee7424;
+}
+.secIniciativas > p{
+    text-align: center;
+}
+.secIniciativas > .row > .col-md-6 > h4{
+    font-size: 1.2em;
+    color: #ee7424;
+}
+
+.secIniciativas > .row > .col-md-6 > p{
+    font-size: 0.8em;
+    color: black;
+}
 /*-------------------------------------------------- */
 /* Seccion Primer Footer  */
 .footerFirst{
@@ -122,6 +168,9 @@
     max-width: 13em;
     max-height: 3em;
 }
+.footerFirst > .row > .col-md-4 > p {
+    font-size: 1.5em;
+}
 
 /*-------------------------------------------------- */
 
@@ -135,6 +184,10 @@
 .card-deck{
     margin-top: 3em;
     margin-bottom: 3em;
+}
+.card-img-top{
+    max-height: 12em;
+    max-width: 100%;
 }
 .boton{
     text-align: center;
@@ -151,6 +204,21 @@
 .btnBlog:hover{
     color: white;
     background-color: #ee7424;
+}
+
+.blog > h3{
+    font-size: 0.9em;
+}
+.blog > h2{
+    font-size: 1.5em;
+    text-align: center;
+    color: #ee7424;
+}
+.card-body > h5{
+    font-size: 1em;
+}
+.card-body > p{
+    font-size: 0.8em;
 }
 /*-------------------------------------------------- */
 
@@ -206,7 +274,16 @@
     background-color: #ee7424;
     text-align: center;
 }
-
+.contactanos1 > h3{
+    font-size: 0.8em;
+}
+.contactanos1 >h1{
+    font-size: 2em;
+}
+.contactanos1 > p{
+    font-size: 0.8em;
+    margin-bottom: 5em;
+}
 
 /*-------------------------------------------------- */
 /* Seccion Somos Parte */
@@ -215,12 +292,15 @@
     margin: 4em 0 4em 0;
 }
 .somos-parte > .row {
-    margin: 8em 12em 0 12em;
+    margin:0  8em 0 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .somos-parte > .row > .col-md-2 > img {
-    width: 12em;
-    height: 4em;
-    margin-left: 3em;
+    max-width: 8em;
+    max-height: 4em;
 }
 /*-------------------------------------------------- */
 /* Seccion Contactos */
@@ -234,20 +314,33 @@
 
 .contactos > .row > .col-md-2 > img {
     width: 8em;
-    height: 6em;
+    max-height: 6em;
+    max-width: 100%;
 }
-.contactos > .row > .col-md-3 {
-    margin: 1em 0 0 -4em;
-}
-.contactos > .row > .col-md-3 > img {
-    width: 20em;
-    height: 100%;
 
+.contactos > .row > .col-md-4 {
+    margin: 1em 0 0 0;
+}
+.contactos > .row > .col-md-4 > img {
+    width: 20em;
+    max-height: 100%;
 }
 .logosRedes{
     margin: 0.5em 0 3em 0;
 }
-
+.logosRedes > a  {
+    color: white;
+}
+.encabezado2 > h5{
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+.encabezado2 > p{
+    font-size: 0.8em;
+}
+.contactos > .row > .col-md-6 > .row > .col-md-6 > .col-10{
+    font-size: 0.8em;
+}
 /*-------------------------------------------------- */
 /* Seccion Footer */
 footer {
@@ -258,13 +351,17 @@ footer {
     font-size: 0.7em;
 }
 .nav{
-    margin: 3em 24em 2em 24em;
+    margin: 3em auto 2em 24em;
+    text-align: center;
 }
 .lista{
-     padding: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
 }
 .lista li{
     display: inline;
+    float: left;
 }
 .lista li a {
     font-family: Arial;
@@ -278,11 +375,19 @@ footer {
 /*Diseno Web Responsive*/
 /*Responsive Smarthphone*/
 @media screen and (max-device-width : 480px) {
+    body{
+        font-size: 50%;
+    }
+
     .logos{
         max-height: 6em;
         max-width: 100%;
         margin-right: 0.2em;
         margin-top: 0.8em;
+    }
+
+    .logos > h6{
+        font-size: 0.5em;
     }
     .secIniciativas{
         margin: 0em 0 2em 0;
@@ -296,17 +401,25 @@ footer {
     .contactanos{
         height: 20rem;
     }
-
+    .somos-parte > .row {
+        margin: 0 0 0 0;
+    }
+    .somos-parte > .row > .col-md-2 > img {
+        max-width: 6em;
+        max-height: 4em;
+    }
+    .formulario > .col-4 > .input-group {
+        width: 5em;
+        margin: 0 0 0 -1em;
+    }
+    .nav {
+        margin: 3em 0 2em 0;
+    }
 
 }
 /*Responsive Tablet*/
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
-    .logos{
-        max-height: 6em;
-        max-width: 100%;
-        margin-right: 0.2em;
-        margin-top: 0.8em;
-    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -322,6 +435,22 @@ footer {
     .blog{
         margin: 3em 0 2em 0;
     }
+    .formulario > .col-4 > .input-group {
+        width: 16em;
+        margin: 0 0 0 -1em;
+    }
+    .somos-parte > .row {
+        margin: 0 0 0 0;
+    }
+    .contactos > .row > .col-md-4 > img {
+        max-width: 12em;
+        text-align: center;
+    }
+    .nav{
+        margin: 3em 0 2em auto;
+        text-align: center;
+    }
+
 }
 
 
@@ -329,38 +458,49 @@ footer {
 @media screen and (min-width:1200px) {
     body {
     }
-    .secLogos{
+
+    .secLogos {
         margin: -7.4em 14em 2em 14em;
     }
-    .logos{
+
+    .logos {
         max-width: 100%;
     }
 
-
-
-
+    .somos-parte > .row {
+        margin: 6em 10em 0 10em;
+    }
 }
+
+
+
+
 /*-------------------------------------------------- */
-/**/
-/* Diseño para celulares */
-#columna1, #columna2, #columna3 {
-    float:none;
-    width:100%;
-}
 
-/* Diseño para tabletas */
-@media screen and (min-width: 800px) {
-    #columna1, #columna2 {
-        float:left;
-        width:50%;
+/*-------------------------------------------------- */
+/*Diseno Web Responsive*/
+@media screen and (max-device-width : 480px) {
+    body{
+        font-size:50%;
+    }
+
+    .footerFirst > .row > .col-md-4 > p {
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:800px) {
+    body {
+        font-size:100%;
+        /* ampliamos los textos si mide más de 800px */
     }
 }
 
-/* Diseño para PC */
-@media screen and (min-width: 1025px) {
-    #columna1, #columna2, #columna3 {
-        float: left;
-        width: 33%;
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+    body {
+        font-size:120%;
+        /* ampliamos más aún los textos si mide más de 1200px */
     }
 }
+
 /*-------------------------------------------------- */

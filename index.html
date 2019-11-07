@@ -5,13 +5,13 @@
     <meta name="description" content="Página Web - Empresa Vera Quintana Asociciados">
     <meta name="author" content="Jazmín Villamarin, Encargada de Gestion IT VQ">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <title>Página Prueba VQ</title>
+    <title>Site VQ - Modo Prueba</title>
 
     <!--Hojas de estilo Boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Hojas de estilos Personalizadas-->
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/fuentes.css">
+
 </head>
 <body>
 <!--Header-->
@@ -28,10 +28,17 @@
                 <form class="form-inline my-2 my-lg-0">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/">Inicio<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="servicios/servicios.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="servicios/servicios_ingenieria.html">Ingeniería y Construcción</a>
+                                <a class="dropdown-item" href="#">Building Information</a>
+                                <a class="dropdown-item" href="#">Gestión de Tecnologías de Información</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Licenciamiento</a>
@@ -66,9 +73,9 @@
                 <div class="container">
                     <div class="carousel-caption text-left">
                         <h1><b>SERVICIOS INTEGRALES</b></h1>
-                        <h2><b>de ingeniería & construcción</b></h2>
+                        <h2>de ingeniería & construcción</h2>
                         <p>Capacitación Profesional, Licenciamiento y Gestión IT</p>
-                        <a class="btn btn-xs btnCarousel" href="#" role="button">Más información
+                        <a class="btn btn-xs btnCarousel" href="servicios/servicios.html" role="button">Más información
                             <i data-feather="chevron-right"></i>
                         </a>
                     </div>
@@ -125,16 +132,28 @@
 
     <div class="row secLogos"><!--Seccion Logos Principales-->
         <div class="col-3 col-md-3 col-lg-3">
-            <a href="#"><img src="img/logos/logo_vq_sim_blanco.png" class="logos" alt=""></a>
+            <div class="logos">
+                <a href="/"><img src="img/logos/1_icon.png" alt="Logo Inicio Site VQ"></a>
+                <h6>Inicio</h6>
+            </div>
         </div>
         <div class="col-3 col-md-3 col-lg-3">
-            <img src="img/logos/logo_vq_sim_blanco.png" class="logos" alt="">
+            <div class="logos">
+                <a href="/servicios/servicios.html"><img src="img/logos/2_icon.png" alt="Logo Servicios Site VQ"></a>
+                <h6>Servicios</h6>
+            </div>
         </div>
         <div class="col-3 col-md-3 col-lg-3">
-            <img src="img/logos/logo_vq_sim_blanco.png" class="logos" alt="">
+            <div class="logos">
+                <a href="#"><img src="img/logos/3_icon.png" alt=""></a>
+                <h6>Licenciamiento</h6>
+            </div>
         </div>
         <div class="col-3 col-md-3 col-lg-3">
-            <img src="img/logos/logo_vq_sim_blanco.png" class="logos" alt="">
+            <div class="logos">
+                <a href="#"><img src="img/logos/4_icon.png" alt=""></a>
+                <h6>Escuela de construcción</h6>
+            </div>
         </div>
     </div><!--fin seccion logos principales-->
 
@@ -186,23 +205,23 @@
         <!---->
         <div class="card-deck">
             <div class="card">
-                <img src="" class="card-img-top" alt="">
+                <img src="img/logos/noticias_gif.gif" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title"><b>Card title</b></h5>
+                    <h5 class="card-title"><b>Titulo 1</b></h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="" class="card-img-top" alt="">
+                <img src="img/logos/noticias_gif.gif" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title"><b>Card title</b></h5>
+                    <h5 class="card-title"><b>Titulo 2</b></h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="" class="card-img-top" alt="">
+                <img src="img/logos/noticias_gif.gif" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title"><b>Card title</b></h5>
+                    <h5 class="card-title"><b>Titulo 3</b></h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
             </div>
@@ -224,18 +243,18 @@
             <p>Ofrecemos Servicios de Integrales de ingeniería y construcción. Capacitación profesional, licenciamiento, Gestión IT.</p>
             <div class="formulario form-row">
                 <div class="col-2"></div>
-                <div class="col-2">
+                <div class="col-2 col-md-2">
                     <a class="btn btn-lg btn-flecha" href="#" role="button"><i data-feather="chevron-left"></i></a>
                 </div>
-                <div class="col-4 mb-3">
+                <div class="col-4 col-md-4 col-sm-4 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Ingresa tu dirección de correo electrónico para ponernos en contacto contigo">
                         <div class="input-group-prepend">
-                            <i data-feather="mail"></i>
+                            <a><i data-feather="mail"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 col-md-2">
                     <a class="btn btn-lg btn-flecha" href="#" role="button"><i data-feather="chevron-right"></i></a>
                 </div>
                 <div class="col-2">
@@ -248,33 +267,36 @@
         <h3>Somos parte de</h3>
         <hr class="hrPer">
         <div class="row">
-            <div class="col-md-2">
-                <img src="img/logos/logo-aap.png" alt="">
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2">
+                <img src="img/inicio/1_SomosParte.png" alt="Logo Autodesk ACC">
             </div>
-            <div class="col-md-2">
-                <img src="img/logos/logo-aap.png" alt="">
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2 ">
+                <img src="img/inicio/2_SomosParte.png" alt="Logo Autodesk ATC">
             </div>
-            <div class="col-md-2">
-                <img src="img/logos/logo-aap.png" alt="">
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2">
+                <img src="img/inicio/3_SomosParte.png" alt="Logo Autodesk AAP">
             </div>
-            <div class="col-md-2">
-                <img src="img/logos/logo-aap.png" alt="">
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2">
+                <img src="img/inicio/4_SomosParte.png" alt=" Logo Pacto Global">
             </div>
-            <div class="col-md-2">
-                <img src="img/logos/logo-aap.png" alt="">
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2">
+                <img src="img/inicio/6_SomosParte.png" alt="Logo ODS 9">
+            </div>
+            <div class="col-md-2 col-2 col-sm-2 col-lg-2">
+                <img src="img/inicio/5_SomosParte.png" alt="Logo ODS 11">
             </div>
         </div>
     </div><!--fin seccion somos parte-->
 
     <div class="contactos"><!--Seccion Contactanos-->
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-2 col-2">
                 <img src="img/logos/logo_vq_sim_blanco.png" alt="">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="encabezado2">
                     <h5><b>Contáctanos</b></h5>
-                    <p>dffd dfgiodjf dfogjdifogjs isdjfoisdfoih</p>
+                    <p> Queremos que te pongas en contacto con nosotros para compartir tus comentarios, opiniones y necesidades o para recibir una asesoría completa</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 row">
@@ -283,7 +305,7 @@
                         <div class="col-2"><i data-feather="mail"></i></div>
                         <div class="col-10"><p>e-mail: info@veraquintana.net</p></div>
                     </div>
-                    <div class="col-md-6 row">
+                    <div class="col-md-6 row ">
                         <div class="col-2"><i data-feather="smartphone"></i></div>
                         <div class="col-10"><p>Celular: 099 123 4567</p></div>
                         <div class="col-2"><i data-feather="phone"></i></div>
@@ -291,13 +313,14 @@
                     </div>
                 </div>
                 <div class="logosRedes">
-                    <i data-feather="twitter"></i>
-                    <i data-feather="facebook"></i>
-                    <i data-feather="instagram"></i>
+                    <a href="#" target="_blank"><i data-feather="twitter"></i></a>
+                    <a href="https://www.facebook.com/veraquintanacorp/" target="_blank"><i data-feather="facebook"></i></a>
+                    <a href="https://www.instagram.com/veraquintanaasoc/" target="_blank"><i data-feather="instagram"></i></a>
+
                 </div>
             </div>
-            <div class="col-md-3">
-                <img src="img/inicio/Computadora_Footer.png" alt="">
+            <div class="col-md-4 col-4">
+                <img src="img/inicio/computadora_footer.png" alt="">
             </div>
         </div>
     </div><!--Seccion contactanos-->
@@ -305,8 +328,8 @@
     <footer class="text-center py-1">
         <div class="nav">
             <ul class="lista">
-                <li><a href="#">INICIOS</a></li>
-                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="/">INICIOS</a></li>
+                <li><a href="servicios/servicios.html">SERVICIOS</a></li>
                 <li><a href="#">LICENCIAMIENTO</a></li>
                 <li><a href="#">ESCUELA</a></li>
                 <li><a href="#">HARDWARE</a></li>

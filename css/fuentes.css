@@ -15,6 +15,9 @@
     font-size: 0.9em;
 }
 /*-------------------------------------------------- */
+/*Seccion Logos*/
+
+/*-------------------------------------------------- */
 /*Seccion Iniciativas*/
 .secIniciativas > h3 {
     font-size: 1em;
@@ -74,13 +77,13 @@
 /*-------------------------------------------------- */
 /*Seccion Contactos*/
 .encabezado2 > h5{
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 3em;
 }
 .encabezado2 > p{
     font-size: 0.8em;
 }
-.contactos > .row > .col-md-7 > .row > .col-md-6 > .col-10{
+.contactos > .row > .col-md-6 > .row > .col-md-6 > .col-10{
     font-size: 0.8em;
 }
     /*-------------------------------------------------- */
@@ -88,8 +91,9 @@
 /*Diseno Web Responsive*/
 @media screen and (max-device-width : 480px) {
     body{
-        font-size:75%;
+        font-size:50%;
     }
+
     .footerFirst > .row > .col-md-4 > p {
         font-size: 1em;
     }
