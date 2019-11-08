@@ -11,12 +11,20 @@
 }
 
 /*Secciones*/
-/* Header */
-.header-main{
-
+/* NAVBAR*/
+.navbar-nav li a:hover {
+    color:#ee7424; !important;
+    background-color: white;!important;
+}
+.navbar-nav > .active > a:hover {
+    color: #ee7424;!important;
+}
+.navbar-nav .dropdown .active{
+    color: white;
+    background-color: #ee7424;
 }
 /*-------------------------------------------------- */
-/* Carousel */
+/* CAROUSEL */
 /* Carousel base class*/
 .carousel {
     margin-bottom: 4rem;

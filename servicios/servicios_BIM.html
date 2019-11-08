@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="description" content="Página Web - Empresa Vera Quintana Asociciados">
     <meta name="author" content="Jazmín Villamarin, Encargada de Gestion IT VQ">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <title>Servicios VQ - Modo Prueba</title>
+    <title>Servicios BIM VQ - Modo Prueba </title>
     <!--Hojas de estilo Boostrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Hojas de estilos Personalizadas-->
@@ -35,8 +35,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="servicios_ingenieria.html">Ingeniería y Construcción</a>
-                            <a class="dropdown-item" href="servicios_BIM.html">Building Information</a>
-                            <a class="dropdown-item" href="#">Gestión de Tecnologías de Información</a>
+                            <a class="dropdown-item active" href="servicios_BIM.html">Building Information</a>
+                            <a class="dropdown-item" href="servicios_TI.html">Gestión de Tecnologías de Información</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -64,52 +64,95 @@
 </header><!--fin header-->
 <!--MAIN-->
 <main role="main">
+
+
+    <!---->
     <div class="encabezado">
-        <h1><b>NUESTROS SERVICIOS</b></h1>
+        <h1><b>SERVICIOS BUILDING INFORMATION MODELING</b></h1>
         <h4>Servicios de Ingeniería y Construcción BIM y Gestión IT</h4>
         <p></p>
     </div>
 
     <div class="secciones">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-3 col-4 contenedor">
-            <img src="../img/servicios/1_servicios.jpg" alt="">
-            <div class="tituloSobre">SERVICIOS DE <b>INGENIERÍA Y CONSTRUCCIÓN</b></div>
-            <div class="servicios1">
-                <a class="btn btnServ1" href="../servicios/servicios_ingenieria.html">MÁS INFORMACIÓN</a>
-            </div>
-        </div>
-        <div class="col-md-3 col-4 contenedor">
-            <img src="../img/servicios/2_servicios.jpg" alt="">
-            <div class="tituloSobre">SERVICIOS <b>BUILDING INFORMATION MODELING</b></div>
-            <div class="servicios2">
-                <a class="btn btnServ2" href="#">MÁS INFORMACIÓN</a>
-            </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 col-4 ">
+                <img src="../img/servicios/4_modelado.jpg" alt="">
+                <h6><b>SERVICIO DE MODELADO DE FACILIDADES</b></h6>
+                <div class="opciones">
+                    <ul>
+                        <li>Cálculo Estructural en Acero</li>
+                        <li>Cálculo Estructural en Hormigón</li>
+                        <li>Levantamiento Topográfico</li>
+                        <li>Diseño Arquitectónico</li>
+                        <li>Diseño de Interiores</li>
+                        <li>Diseño SCI bajo normativa NFPA</li>
+                    </ul>
+                </div>
 
-        </div>
-        <div class="col-md-3 col-4 contenedor">
-            <img src="../img/servicios/3_servicios.jpg" alt="">
-            <div class="tituloSobre">SERVICIOS DE <b>GESTIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN</b></div>
-            <div class="servicios3">
-                <a class="btn btnServ3" href="#">MÁS INFORMACIÓN</a>
             </div>
+            <div class="col-md-3 col-4 ">
+                <img src="../img/servicios/5_gerenciamiento.jpg" alt="">
+                <h6><b>GERENCIAMIENTO BIM</b></h6>
+                <div class="opciones">
+                    <ul>
+                        <li>Construcción de viviendas de todo tipo</li>
+                        <li>Montaje de Estructuras Metálicas. Incluye cálculo</li>
+                        <li>Montaje de Plantas de Procesamiento</li>
+                        <li>Construcción de Tanques API 650</li>
+                        <li>Servicio de Mecanizado</li>
+                    </ul>
+                </div>
 
+            </div>
+            <div class="col-md-3 col-4">
+                <img src="../img/servicios/6_implementacion.jpg" alt="">
+                <h6><b>IMPLEMENTACIÓN BIM CORPORATIVA</b></h6>
+                <div class="opciones">
+                    <ul>
+                        <li>Digitalización de Documentos</li>
+                        <li>Levantamiento de planos As-Built</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
     </div>
-</div>
+
+    <div class="contactanos"><!--Seccion Contactanos-->
+        <div class="contactanos1">
+            <div class="encabezado">
+                <br><br>
+            </div>
+            <h3>Contáctanos</h3>
+            <hr class="hrPer2">
+            <h1>Necesitas más información?</h1>
+            <p>Ofrecemos Servicios de Integrales de ingeniería y construcción. Capacitación profesional, licenciamiento, Gestión IT.</p>
+            <div class="formulario form-row">
+                <div class="col-2"></div>
+                <div class="col-2 col-md-2">
+                    <a class="btn btn-lg btn-flecha" href="#" role="button"><i data-feather="chevron-left"></i></a>
+                </div>
+                <div class="col-4 col-md-4 col-sm-4 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Ingresa tu dirección de correo electrónico para ponernos en contacto contigo">
+                        <div class="input-group-prepend">
+                            <a><i data-feather="mail"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-md-2">
+                    <a class="btn btn-lg btn-flecha" href="#" role="button"><i data-feather="chevron-right"></i></a>
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+        </div>
+    </div><!--fin seccion contactanos-->
 
 
-
-
-
-
-
-
-
-
-    <div class="contactos"><!--Seccion Contactanos-->
+    <div class="contactos"><!--Seccion Contactos-->
         <div class="row">
             <div class="col-md-2 col-2">
                 <img src="../img/logos/logo_vq_sim_blanco.png" alt="">
@@ -150,7 +193,7 @@
         <div class="nav">
             <ul class="lista">
                 <li><a href="/">INICIOS</a></li>
-                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="servicios/servicios.html">SERVICIOS</a></li>
                 <li><a href="#">LICENCIAMIENTO</a></li>
                 <li><a href="#">ESCUELA</a></li>
                 <li><a href="#">HARDWARE</a></li>
