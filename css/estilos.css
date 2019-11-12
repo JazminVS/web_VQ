@@ -33,6 +33,7 @@
 .carousel-caption {
     bottom: 8rem;
     z-index: 10;
+    text-align: left;
 }
 /* Declare heights because of positioning of img element */
 .carousel-item {
@@ -60,9 +61,11 @@
 }
 .carousel-caption > h1 {
     font-size: 2em;
+
 }
 .carousel-caption > h2 {
     font-size: 1.5em;
+    text-align: left;
 }
 .carousel-caption > p {
     font-size: 0.9em;
