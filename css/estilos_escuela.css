@@ -1,0 +1,38 @@
+/*ESCUELA DE CONSTRUCCIÓN*/
+/**/
+.encabezado > h4{
+    color: dimgray;
+}
+.encabezado > p{
+    color: dimgray;
+    text-align: center;
+    font-size: 0.85em;
+}
+.row > .col-md-6 > h4{
+    color: #ee7424;
+    text-transform: uppercase;
+}
+.row > .col-md-6 > p{
+    font-size: 0.85em;
+    color: dimgray
+}
+.row > .col-md-6 > ul > li{
+    font-size: 0.85em;
+    color: gray;
+}
+
+.btnMas{
+    text-decoration: none;
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #ee7424;
+    background-color: white;
+    border-color: #ee7424;
+}
+.btnMas:hover{
+    color: white;
+    background-color: #ee7424;
+}
+/**/
+/*-------------------------------------------------- */
