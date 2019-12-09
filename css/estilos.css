@@ -184,7 +184,12 @@
 }
 
 /*-------------------------------------------------- */
+/* Carousel Seccion Noticias */
+.carousel-second > .carousel-item {
+    height: 5em;
+}
 
+/*-------------------------------------------------- */
 /* Seccion Blog */
 .blog{
     margin: 3em 10em 2em 10em;

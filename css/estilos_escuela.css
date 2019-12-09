@@ -8,6 +8,10 @@
     text-align: center;
     font-size: 0.85em;
 }
+.row {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 .row > .col-md-6 > h4{
     color: #ee7424;
     text-transform: uppercase;
@@ -19,6 +23,10 @@
 .row > .col-md-6 > ul > li{
     font-size: 0.85em;
     color: gray;
+}
+.imgEscuela{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .btnMas{

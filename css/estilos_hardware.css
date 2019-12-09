@@ -1,0 +1,14 @@
+.encabezado h1 {
+    color: #ee7424;
+    text-transform: uppercase;
+    font-size: 2.3em;
+    text-align: center;
+}
+.encabezado p {
+    text-align: center;
+    color: dimgray;
+    font-size: 0.9em;
+}
+.seccion {
+    margin: 5em 5em 5em 5em;
+}
