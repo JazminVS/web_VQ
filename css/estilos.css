@@ -186,13 +186,15 @@
 /*-------------------------------------------------- */
 /* Carousel Seccion Noticias */
 .carousel-second > .carousel-item {
-    height: 5em;
+    height: 30em;
 }
-
+.card > img{
+    height: 10em;
+}
 /*-------------------------------------------------- */
 /* Seccion Blog */
 .blog{
-    margin: 3em 10em 2em 10em;
+    margin: 3em 8em 2em 8em;
 }
 .blog > h3, h2{
     text-align: center;
@@ -200,6 +202,12 @@
 .card-deck{
     margin-top: 3em;
     margin-bottom: 3em;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
 }
 .card-img-top{
     max-height: 12em;

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Página Web - Empresa Vera Quintana Asociciados">
+    <meta name="author" content="Jazmín Villamarin, Encargada de Gestion IT VQ">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>Hardware - Modo Prueba</title>
+
+    <!--Hojas de estilo Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Hojas de estilos Personalizadas-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+</head>
+<!--HEADER-->
+<header class="header-main">
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="img/logos/logo_vq.png" class="logoMain" alt="Logo VQ a color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/_test">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="servicios/servicios.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="servicios/servicios_ingenieria.html">Ingeniería y Construcción</a>
+                            <a class="dropdown-item" href="servicios/servicios_BIM.html">Building Information</a>
+                            <a class="dropdown-item" href="servicios/servicios_TI.html">Gestión de Tecnologías de Información</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="licenciamiento.html">Licenciamiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="escuela_construccion.html">Escuela</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hardware.html">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </nav><!--fin navbar-->
+</header><!--fin header-->
+<body>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.448299717258!2d-78.48488477081592!3d-0.20332175889422913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7044371b65%3A0xe8a8d106e294a2cf!2sVera%20Quintana%20Asociados!5e0!3m2!1ses!2sec!4v1575994198987!5m2!1ses!2sec"
+            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+<div class="container">
+    <div class="formulario">
+        <h3>Deja tu mensaje</h3>
+        <hr class="hrPer">
+        <h4>En <b style="color: #ee7424">Vera Quintana</b> nos importan <b style="color: black">los clientes!</b></h4>
+        <p>Dejános tus datos y nos pondremos en contacto contigo a la brevedad posible</p>
+        <form class="form-consulta" action="php/enviar.php" method="POST">
+            <div class="form-group">
+                <div class="row colum1">
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="telefono" aria-describedby="emailHelp" placeholder="Teléfono">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="submit" value="Enviar" class="btn-form">
+                    </div>
+                </div>
+                <div class="row colum2">
+                    <div class="col-md-12 col-12">
+                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba aquí tu mensaje"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+<div class="contactos"><!--Seccion Contactanos-->
+    <div class="row">
+        <div class="col-md-2 col-2">
+            <img src="img/logos/logo_vq_sim_blanco.png" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="encabezado2">
+                <h5><b>Contáctanos</b></h5>
+                <p> Queremos que te pongas en contacto con nosotros para compartir tus comentarios, opiniones y necesidades o para recibir una asesoría completa</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 row">
+                    <div class="col-2"><i data-feather="map-pin"></i></div>
+                    <div class="col-10"><p>Dirección: Camilo Destruge N24-664 y Av.Cristóbal Colón, Quito</p></div>
+                    <div class="col-2"><i data-feather="mail"></i></div>
+                    <div class="col-10"><p>e-mail: info@veraquintana.net</p></div>
+                </div>
+                <div class="col-md-6 row ">
+                    <div class="col-2"><i data-feather="smartphone"></i></div>
+                    <div class="col-10"><p>Celular: 099 123 4567</p></div>
+                    <div class="col-2"><i data-feather="phone"></i></div>
+                    <div class="col-10"><p>Teléfono: 02 0123 456</p></div>
+                </div>
+            </div>
+            <div class="logosRedes">
+                <a href="#" target="_blank"><i data-feather="twitter"></i></a>
+                <a href="https://www.facebook.com/veraquintanacorp/" target="_blank"><i data-feather="facebook"></i></a>
+                <a href="https://www.instagram.com/veraquintanaasoc/" target="_blank"><i data-feather="instagram"></i></a>
+
+            </div>
+        </div>
+        <div class="col-md-4 col-4">
+            <img src="img/inicio/computadora_footer.png" alt="">
+        </div>
+    </div>
+</div><!--Seccion contactanos-->
+
+<footer class="text-center py-1">
+    <div class="nav">
+        <ul class="lista">
+            <li><a href="/_test">INICIO</a></li>
+            <li><a href="/_test/servicios/servicios.html">SERVICIOS</a></li>
+            <li><a href="/_test/licenciamiento.html">LICENCIAMIENTO</a></li>
+            <li><a href="/_test/escuela_construccion.html">ESCUELA</a></li>
+            <li><a href="/_test/hardware.html">HARDWARE</a></li>
+            <li><a href="/_test/nosotros.html">NOSOTROS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACTO</a></li>
+        </ul>
+    </div>
+    <p>© 2019 Vera Quintana Asociados Derechos Reservados</p>
+</footer>
+
+
+</body>
+<!--JS BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--JS Personalizados-->
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script> <!--Feather Iconos-->
+<script>
+    feather.replace()
+</script>
+</html>

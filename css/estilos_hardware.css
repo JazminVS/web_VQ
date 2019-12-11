@@ -10,5 +10,8 @@
     font-size: 0.9em;
 }
 .seccion {
-    margin: 5em 5em 5em 5em;
+    margin: 2em 5em 2em 5em;
+}
+.fondo{
+    background-image: url("");
 }

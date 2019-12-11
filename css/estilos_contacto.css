@@ -1,0 +1,46 @@
+.formulario {
+    margin-left: 5em;
+    margin-top: 5em;
+}
+.colum1 {
+    margin: 2em 0 1em 0;
+}
+.colum2{
+    margin: 0 0 5em 0;
+}
+.form-control{
+    border-color: #ee7424;
+    font-size: 0.8em;
+}
+
+.form-consulta > .row >.col-md-12{
+    width: 100%;
+    height: 100%;
+}
+.formulario h3{
+    font-size: 1em;
+    text-align: center;
+    color: dimgray;
+}
+.formulario h4{
+    text-align: center;
+    color: dimgray;
+}
+.formulario p{
+    font-size: 0.8em;
+    text-align: center;
+    color: dimgray;
+}
+.btnSubmit{
+    text-decoration: none;
+    padding: 0.5em;
+    font-size: 0.7em;
+    color: #ffffff;
+    background-color: #ee7424;
+}
+.btnSubmit:hover{
+    color: #ee7424;
+    background-color: #ffffff;
+    border-color: #ee7424;
+}
+
