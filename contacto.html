@@ -73,25 +73,25 @@
         <hr class="hrPer">
         <h4>En <b style="color: #ee7424">Vera Quintana</b> nos importan <b style="color: black">los clientes!</b></h4>
         <p>Dejános tus datos y nos pondremos en contacto contigo a la brevedad posible</p>
-        <form class="form-consulta" action="php/enviar.php" method="POST">
+        <form class="form-consulta" action="enviar.php" method="POST">
             <div class="form-group">
                 <div class="row colum1">
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre">
+                        <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp" placeholder="Nombre">
                     </div>
                     <div class="col-md-3">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                     </div>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="telefono" aria-describedby="emailHelp" placeholder="Teléfono">
+                        <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="emailHelp" placeholder="Teléfono">
                     </div>
                     <div class="col-md-3">
-                        <input type="submit" value="Enviar" class="btn-form">
+                        <input type="submit" name="enviar" value="Enviar" class="btn-form">
                     </div>
                 </div>
                 <div class="row colum2">
                     <div class="col-md-12 col-12">
-                        <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba aquí tu mensaje"></textarea>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Escriba aquí tu mensaje" ></textarea>
                     </div>
                 </div>
             </div>

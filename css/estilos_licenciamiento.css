@@ -34,8 +34,8 @@
     margin: 0 3em 0 3em;
     font-size: 1.2em;
 }
-.info {
-    margin: 0 18em 0 18em;
+.info{
+    size: 1em;
 }
 .info > p {
     color: #ee7424;
